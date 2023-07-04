@@ -7,8 +7,8 @@
 
 ## Proyecto Sistema de Incendio con Arduino
 ---
-![imagen del proyecyo](imagenes/proyecto.png "proyecto hecho en tinkercad")
-![diagrama del proyecyo](imagenes/diagrama.png "diagrama hecho en tinkercad")
+![imagen del proyecyo](proyecto.png "proyecto hecho en tinkercad")
+![diagrama del proyecyo](diagrama.png "diagrama hecho en tinkercad")
 ## Descripcion
 ---
 El proyecto es un sistema de incendio, posee un sensor de temperatura, que va a captar la temperatura en el sector ubicado, un sensor IR (infrarrojo) que va a capturar las señales del control remoto IR, un servo motor que va a ser usado para simular una respuesta en caso de un incendio, una pantalla LCD 16 x 2, que nos a indicar todo lo que esta pasando en el sistema (temperatura actual, rangos de temp. segun la estacion del año, si el sistema esta encendido o apagado y tambien cuando se detecta el incendio), por ultimo se instalaron 2 led, uno verde que indica que el sistema esta encendido y otro rojo que se enciendo cuando el sistema esta apagado.
