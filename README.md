@@ -15,7 +15,7 @@ El proyecto es un sistema de incendio, posee un sensor de temperatura, que va a 
 ## Funcion principal
 ---
 La funcion principal es el uso del control ir, ya que permite elegir la configuracion del sistema,
-los botones que se usan son: el de encendido, el 1,2,3,4 y el boton play, este ultimo va actuar como boton de enmergencia, en caso de que el sensor de temperatura esta dañado o no detecta el incendio por "X" motivo, este boton enciende el sistema de riego (en este caso los servomotores), los botonos del 1 al 4 son para a seleccionar la estacion del año, donde cada estacion tiene un limite de temperatura diferente
+los botones que se usan son: el de encendido, el 1,2,3,4 y el boton play, este ultimo va actuar como boton de emergencia, en caso de que el sensor de temperatura esta dañado o no detecta el incendio por "X" motivo, este boton enciende el sistema de riego (en este caso los servomotores), los botonos del 1 al 4 son para a seleccionar la estacion del año, donde cada estacion tiene un limite de temperatura diferente
 <!-- Bloque de codigos -->
 ```c++
 void usar_control () // Funcion de los botones del control ir
