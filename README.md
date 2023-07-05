@@ -7,8 +7,8 @@
 
 ## Proyecto Sistema de Incendio con Arduino
 ---
-![imagen del proyecyo](imagenes/proyecto.png "proyecto hecho en tinkercad")
-![diagrama del proyecyo](imagenes/diagrama.png "diagrama hecho en tinkercad")
+![imagen del proyecyo](proyecto.png "proyecto hecho en tinkercad")
+![diagrama del proyecyo](diagrama.png "diagrama hecho en tinkercad")
 ## Materiales utilizados
 ---
 * Arduino uno (1)
@@ -114,7 +114,7 @@ void encender_apagar ()
   }
 }
 ```
-![imagen del sistema apagado](imagenes/sistema_apagado.png "proyecto hecho en tinkercad")
+![imagen del sistema apagado](sistema_apagado.png "proyecto hecho en tinkercad")
 
 ## Funcion principal (control remoto)
 ---
@@ -215,7 +215,7 @@ void usar_control () // Funcion de los botones del control ir
   } 
 }
 ```
-![imagen del sistema encendido](imagenes/sistema_encendido.png "proyecto hecho en tinkercad")
+![imagen del sistema encendido](sistema_encendido.png "proyecto hecho en tinkercad")
 
 ## Link del proyecto de tinkercad
 ---
