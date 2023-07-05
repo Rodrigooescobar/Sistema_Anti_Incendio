@@ -7,8 +7,8 @@
 
 ## Proyecto Sistema de Incendio con Arduino
 ---
-![imagen del proyecyo](proyecto.png "proyecto hecho en tinkercad")
-![diagrama del proyecyo](diagrama.png "diagrama hecho en tinkercad")
+![imagen del proyecyo](imagenes/proyecto.png "proyecto hecho en tinkercad")
+![diagrama del proyecyo](imagenes/diagrama.png "diagrama hecho en tinkercad")
 ## Materiales utilizados
 ---
 * Arduino uno (1)
@@ -44,6 +44,7 @@ IRrecv receptorIR(PIN_CONTROL_IR);// Tipo de objeto IRrecv llmado receptorIR
 void setup()
 {
   receptorIR.begin(PIN_CONTROL_IR); // Inicializa el Control IR
+  [...]
 }
 ```
 ## LCD
@@ -57,20 +58,25 @@ LiquidCrystal lcd (2,3,4,5,6,7);
 void setup()
 {
   lcd.begin (16, 2);//numero de lineas y columnas
+  [...]
 }
 ```
 
 ## Servo
-servoMotor es un objeto que permite controlar al servo motor.
+myservo es el nombre de un objeto que permite controlar al servo motor.
 
 Como los demas objetos lo inicializamos dentro del setup
 Pomos controlar la posicion pasandolo por parametro los valores, servoMotor.write(0). 
 El servoMotor se inicializa en la posición 0°
 ```c++
 #define SERVOMOTOR 9
+
+Servo myservo;
+
 void setup()
 {
   myservo.attach(SERVOMOTOR); // Inicializa el ServoMotor
+  [...]
 }
 ```
 ## Funcion para prender y apagar el sistema
@@ -81,6 +87,7 @@ Como dice el titulo esta funcion se encarga de prender y apagar el sistema, para
 void loop()
 {
   encender_apagar (); // Funcion para apagar y prender el sistema
+  [...]
 }
 
 void encender_apagar ()
@@ -107,6 +114,8 @@ void encender_apagar ()
   }
 }
 ```
+![imagen del sistema apagado](imagenes/sistema_apagado.png "proyecto hecho en tinkercad")
+
 ## Funcion principal (control remoto)
 ---
 La funcion principal es el uso del control ir, ya que permite elegir la configuracion del sistema,
@@ -206,6 +215,7 @@ void usar_control () // Funcion de los botones del control ir
   } 
 }
 ```
+![imagen del sistema encendido](imagenes/sistema_encendido.png "proyecto hecho en tinkercad")
 
 ## Link del proyecto de tinkercad
 ---
@@ -213,7 +223,7 @@ void usar_control () // Funcion de los botones del control ir
 
 ## Link del GBD
 ---
-* [GDB](https://onlinegdb.com/al2YG95kS)
+* [GDB](https://onlinegdb.com/uRujaZR1Q)
 
 ## Link del video funcionando
 ---
