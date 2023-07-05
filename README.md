@@ -85,22 +85,19 @@ void loop()
 
 void encender_apagar ()
 {
-  if (receptorIR.decode())
+  if (receptorIR.decode()) // Espera la señal del control
   {
-    if (lectura_control == boton_power)
+    if (lectura_control == boton_power) // Cuando recibe la señal cambia enciende/apaga el sistema
     {
       power = !power;
-      //Serial.println (power);
     }
   }
     if (power) // Sistema prendido
   {
     usar_control ();// Funcion del control
-    //lcd.display();
   }
   else // Sistema apagado
   {
-    //lcd.noDisplay();
     lcd.setCursor(0, 0);
     lcd.print(" Sitema apagado");
     lcd.setCursor(0,1);
