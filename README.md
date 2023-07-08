@@ -1,5 +1,5 @@
 # Segundo parcial de SPD
-![imagen de arduino y tinkercad](tinkercad-arduino.png "arduino en tinkercad")
+![imagen de arduino y tinkercad](imagenes/tinkercad-arduino.png "arduino en tinkercad")
 <!-- UL-->
 ## Alumno:
 ---
@@ -114,7 +114,7 @@ void encender_apagar ()
   }
 }
 ```
-![imagen del sistema apagado](sistema_apagado.png "proyecto hecho en tinkercad")
+![imagen del sistema apagado](imagenes/sistema_apagado.png "proyecto hecho en tinkercad")
 
 ## Funcion principal (control remoto)
 ---
@@ -215,7 +215,7 @@ void usar_control () // Funcion de los botones del control ir
   } 
 }
 ```
-![imagen del sistema encendido](sistema_encendido.png "proyecto hecho en tinkercad")
+![imagen del sistema encendido](imagenes/sistema_encendido.png "proyecto hecho en tinkercad")
 
 ## Link del proyecto de tinkercad
 ---
