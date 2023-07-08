@@ -7,8 +7,8 @@
 
 ## Proyecto Sistema de Incendio con Arduino
 ---
-![imagen del proyecyo](proyecto.png "proyecto hecho en tinkercad")
-![diagrama del proyecyo](diagrama.png "diagrama hecho en tinkercad")
+![imagen del proyecyo](imagenes/proyecto.png "proyecto hecho en tinkercad")
+![diagrama del proyecyo](imagenes/diagrama.png "diagrama hecho en tinkercad")
 ## Materiales utilizados
 ---
 * Arduino uno (1)
